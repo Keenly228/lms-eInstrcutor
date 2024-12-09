@@ -1,0 +1,63 @@
+/*body {*/
+/*    font-family: 'E-Ukraine', sans-serif;*/
+/*}*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Базовий розмір шрифту */
+    line-height: 1.6; /* Оптимальний міжрядковий інтервал */
+    color: #333; /* Основний колір тексту */
+    margin: 0;
+    padding: 0;
+}
+
+.custom-span {
+    display: inline-block; /* Робимо span схожим на кнопку */
+    font-family: 'Roboto', sans-serif; /* Шрифт */
+    font-weight: 500; /* Напівжирний стиль */
+    font-size: 16px; /* Розмір тексту */
+    color: #000; /* Чорний текст */
+    background-color: #f2f2f2; /* Світло-сірий фон */
+    border-radius: 20px; /* Закруглені краї */
+    padding: 10px 20px; /* Внутрішній відступ */
+    cursor: pointer; /* Курсор "рука" при наведенні */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Анімація ефектів */
+}
+
+h1 {
+}
+
+.custom-input {
+    width: 250px;
+}
+
+.custom-nav {
+    padding: 12px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.custom-div {
+    padding: 60px;
+}
+
+.custom-footer {
+    padding-bottom: 60px;
+}
+
+.logo {
+    opacity: 0.5;
+}
